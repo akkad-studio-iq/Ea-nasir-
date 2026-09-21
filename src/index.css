@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #1A1614;
+  color: #C9A227;
+  font-family: 'Noto Kufi Arabic', system-ui, -apple-system, sans-serif;
+  direction: rtl;
+  -webkit-font-smoothing: antialiased;
+}
